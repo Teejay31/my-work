@@ -31,6 +31,12 @@
     color: black !important;
 }
 
+@media (max-width: 769px) {
+    .fmt {
+        margin-top: 20%;
+    }
+}
+
 @media (max-width: 426px) {
     .resize {
         width: 100% !important;
@@ -52,6 +58,6 @@
     }
 
     .fmt {
-        margin-top: 30%;
+        margin-top: 35%;
     }
 }
