@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 321px) {
-    .fmt {
-        margin-top: 38%;
+    .for-social img {
+        padding-right: 0 !important;
     }
 }
