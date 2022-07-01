@@ -8,6 +8,10 @@
     text-align: justify;
 }
 
+.nav {
+    flex-wrap: nowrap !important;
+}
+
 .john {
     height: 15vh;
     object-fit: cover;
@@ -46,7 +50,11 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
-        align-items: center;
+        align-items: center !important;
+    }
+
+    .fr-sm {
+        justify-content: center !important;
     }
 
     .mr {
@@ -60,10 +68,18 @@
     .fmt {
         margin-top: 35%;
     }
+
+    .review img {
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 321px) {
     .for-social img {
-        padding-right: 0 !important;
+        padding-right: 2px !important;
+    }
+
+    .fmt {
+        margin-top: 40%;
     }
 }
