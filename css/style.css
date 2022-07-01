@@ -47,7 +47,6 @@
     }
 
     .fr-dir {
-        display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
@@ -71,6 +70,10 @@
 
     .review img {
         margin-bottom: 5px;
+    }
+
+    .nav-tabs {
+        border-bottom: none !important;
     }
 }
 
