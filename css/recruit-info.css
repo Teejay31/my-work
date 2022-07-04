@@ -54,12 +54,8 @@
     color: black !important;
 }
 
-.nav-pills .nav-link {
-    border-radius: 0;
-}
-
-.nav-link {
-    color: black;
+.pill .active {
+    border-bottom: 2px solid blue;
 }
 
 @media (max-width: 769px) {
