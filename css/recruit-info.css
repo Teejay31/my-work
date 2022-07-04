@@ -23,6 +23,24 @@
     font-size: 14px;
 }
 
+.mobile {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .mobile {
+        display: block;
+    }
+
+    .navbar-nav i {
+        display: none;
+    }
+
+    .navbar-nav {
+        font-weight: bold;
+    }
+}
+
 .justify {
     text-align: justify;
 }
@@ -97,6 +115,10 @@
 
     .fsm-16 {
         font-size: 16px;
+    }
+
+    .pill a {
+        height: 12vh;
     }
 }
 
