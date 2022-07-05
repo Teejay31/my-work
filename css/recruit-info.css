@@ -73,7 +73,7 @@
 }
 
 .pill .active {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgba(31, 118, 234, 1);
 }
 
 @media (max-width: 769px) {
